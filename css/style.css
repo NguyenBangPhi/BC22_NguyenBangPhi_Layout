@@ -260,3 +260,40 @@ button.search-btn {
 .w3l-bottom-grids-6 h4 a.title-head:hover {
     color: #000;
 }
+
+/* welcome */
+.title-heading-w3 {
+    max-width: 700px;
+}
+.w3l-welcome .feature-images span {
+    color: var(--primary-color);
+    font-size: 30px;
+    background: var(--bg-color-li);
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+}
+h3.title-main{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    position: relative;
+}
+h3.title-main:before, h3.title-main:after {
+    content: "";
+    background: var(--font-color);
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    margin: 0 auto;
+}
+h3.title-main:before {
+    left: -20px;
+    bottom: -8px;
+}
+h3.title-main:after {
+    left: 20px;
+    bottom: -15px;
+}
