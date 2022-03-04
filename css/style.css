@@ -77,6 +77,11 @@ body {
     --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+a:hover,button:hover {
+    text-decoration: none;
+    transition: .5s all;
+    -moz-transition: .5s all;
+}
 li {
     list-style-type: none;
 }
@@ -210,5 +215,48 @@ button.search-btn {
     position: sticky;
 }
 .carousel-caption{
-    padding-top: 150px;
+    padding-top: 130px;
+}
+
+/* bottom-gird */
+.w3l-bottom-grids-6 {
+    margin-top: -4em;
+}
+.w3l-bottom-grids-6 .area-box.color-1 {
+    background-color: #037ef3;
+}
+.w3l-bottom-grids-6 .area-box.color-2 {
+    background-color: #ffc949;
+}
+.w3l-bottom-grids-6 .area-box.color-3 {
+    background-color: #ff4f81;
+}
+.w3l-bottom-grids-6 .area-box.color-4 {
+    background-color: #1ee697;
+}
+.w3l-bottom-grids-6 .area-box {
+    padding: 50px 35px;
+    z-index: 1;
+    border-radius: 8px;
+    background-color: var(--bg-color);
+}
+.w3l-bottom-grids-6 .area-box i {
+    font-size: 45px;
+    color: #fff;
+}
+.w3l-bottom-grids-6 .area-box h4{
+    margin: 0;
+    padding: 0;
+    color: var(--heading-color);
+    font-family: 'Montserrat', sans-serif;
+}
+.w3l-bottom-grids-6 h4 a.title-head {
+    margin-top: 25px;
+    display: block;
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+}
+.w3l-bottom-grids-6 h4 a.title-head:hover {
+    color: #000;
 }
