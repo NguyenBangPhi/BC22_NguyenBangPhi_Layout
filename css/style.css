@@ -146,7 +146,69 @@ button.search-btn {
     .cont-ser-position {
         position: absolute;
         right: 100px;
-        top: 16px;
+        top: 31px;
         font-size: 18px;
     }
+    
+}
+.Carousel img{
+    height: 650px;
+}
+.carousel-caption2{
+    position: absolute;
+    top: 15px;
+    text-align: left;
+}
+.carousel-caption2 h5{
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: bold;
+    color: #fff;
+    max-width: 540px;
+}
+.btn-style {
+    padding: 14px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #060606;
+    border-radius: 4px;
+    background: #fff;
+    border: none;
+    transition: all .25s ease-in-out;
+}
+.btn-style:hover, .btn-style-secondary {
+    background: var(--secondary-color);
+    color: #fff;
+    transition: 0.3s ease-out;
+}
+/* .carousel-caption2 a{
+    text-align: left;
+} */
+.carousel-indicators2{
+    flex-direction: column;
+ 
+}
+.carousel-indicators2 li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+@media (max-width: 768px){
+    .carousel-caption{
+        padding-top: 100px;
+    }
+    .carousel-caption h5{
+        font-size: 50px;
+        line-height: 1;
+    }
+    .carousel-item img{
+        height: 450px;
+    }
+
+}
+.fixed-top{
+    position: sticky;
+}
+.carousel-caption{
+    padding-top: 150px;
 }
