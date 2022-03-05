@@ -102,6 +102,53 @@ p {
     max-width: 100%;
     height: auto;
 }
+/*nav right*/
+.nav-rightMenu{
+    position: fixed;
+    right: 0;
+    top: 150px;
+    z-index: 9000;
+    background-color: #0d1326;
+    padding: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    color: #8f95a8;
+}
+.nav-right-top{
+    padding: 10px 0;
+}
+.nav-right-top span{
+    text-align: right;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50px;
+    font-size: 26px;
+    cursor: pointer;
+    opacity: .5;
+}
+.nav-right-bot {
+    border-top: 1px solid #8f95a8;
+    padding-top: 30px;
+    
+}
+.demo-btns a{
+    display: block;
+    color: #e6ebff;
+    text-decoration: none;
+    line-height: 24px;
+    opacity: .6;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 20px 0;
+    margin-top: 10px;
+}
+.demo-btns a span{
+    display: block;
+}
 /* update nav */
 
 .navbar-expand-lg .navbar-nav .nav-item {
