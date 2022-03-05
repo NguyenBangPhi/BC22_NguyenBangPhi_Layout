@@ -483,3 +483,38 @@ ul.rating-list li a {
  .fon a:hover {
     color: #cecece;
 }
+
+/* homeblock */
+.w3l-homeblock1 .w3-services-ab {
+    background: url(../img/bg3.jpg) no-repeat bottom;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+.w3l-homeblock1 .feature-gd {
+    background: var(--bg-color);
+    padding: 30px;
+    border-radius: 8px;
+}
+.w3l-homeblock1 .icon {
+    margin-right: 1em;
+}
+.w3l-homeblock1 .icon i {
+    color: var(--primary-color);
+    font-size: 28px;
+    background: rgb(13 54 159 / 9%);
+    width: 65px;
+    height: 66px;
+    line-height: 65px;
+    border-radius: 50%;
+    text-align: center;
+}
+.w3l-homeblock1 .fea-gd-vv h5 {
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--heading-color);
+    font-weight: 600;
+    margin-bottom: 6px;
+}
