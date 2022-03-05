@@ -552,38 +552,41 @@ ul.rating-list li a {
  .fon a:hover {
     color: #cecece;
 }
-
-/* homeblock */
-.w3l-homeblock1 .w3-services-ab {
-    background: url(../img/bg3.jpg) no-repeat bottom;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
+.Subscribe{
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 50px;
 }
-.w3l-homeblock1 .feature-gd {
-    background: var(--bg-color);
-    padding: 30px;
-    border-radius: 8px;
-}
-.w3l-homeblock1 .icon {
-    margin-right: 1em;
-}
-.w3l-homeblock1 .icon i {
-    color: var(--primary-color);
-    font-size: 28px;
-    background: rgb(13 54 159 / 9%);
-    width: 65px;
-    height: 66px;
-    line-height: 65px;
-    border-radius: 50%;
-    text-align: center;
-}
-.w3l-homeblock1 .fea-gd-vv h5 {
-    font-size: 20px;
-    line-height: 30px;
+.Subscribe h4{
+    font-size: 35px;
+    line-height: 40px;
     color: var(--heading-color);
     font-weight: 600;
-    margin-bottom: 6px;
+}
+.Subscribe p{
+    font-size: 15px;
+    color: var(--font-color);
+    letter-spacing: 1px;
+}
+.Subscribe .fromemail{
+    display: flex;
+}
+.Subscribe .form-control{
+    background: transparent;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: var(--heading-color);
+    width: 100%;
+    border-radius: 8px 0px 0px 8px;
+    height: 55px;
+    border: 1px solid var(--border-color-light);
+}
+.Subscribe .btn {
+    background-color: #0d369f;
+    padding: 12px 40px;
+    color: white;
+    border-radius: 0 10px 10px 0;
 }
