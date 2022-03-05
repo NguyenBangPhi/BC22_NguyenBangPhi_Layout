@@ -422,3 +422,64 @@ ul.rating-list li a {
     color: #fff;
     transition: 0.3s ease-out;
 }
+
+
+/* <!-- footer --> */
+
+ .footer__back{
+    background-color: #040a17;
+    padding: 10px 0;
+}
+.footer__back p{
+    font-size: 15px;
+    line-height: 20px;
+    color: #a0a0a0;
+}
+.social{
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px;
+}
+.social li i{
+    background-color: #151c2c;
+    color: white;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+}
+.footer-sub{
+    background-color: #060e1f;
+}
+.footer-sub .fon h6{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(23, 54, 88, 0.4);
+    padding-bottom: 10px;
+    font-weight: bold;
+    
+}
+.footer-sub .fon a{
+    font-size: 14px; 
+    color: #cecece;  
+    margin-left: 20px;
+    transition: all 0.5s;
+}
+.ab-right-cont{
+    border-left: 1px solid rgb(64 73 82 / 51%);
+}
+.footer-sub .fon p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #cecece;
+}
+.footer-sub .fon i{
+    color: #cecece;
+    position: relative;
+    top:25px
+}
+ .fon a:hover {
+    color: #cecece;
+}
