@@ -77,11 +77,12 @@ body {
     --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
-a:hover,button:hover {
+a,a:hover,button:hover {
     text-decoration: none;
     transition: .5s all;
     -moz-transition: .5s all;
 }
+
 li {
     list-style-type: none;
 }
@@ -101,6 +102,27 @@ p {
     max-width: 100%;
     height: auto;
 }
+/* update nav */
+
+.navbar-expand-lg .navbar-nav .nav-item {
+    padding: 0 12px;
+    transition: all 0.5s ease;
+    position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 6px 0;
+    font-size: 16px;
+    color: var(--heading-color);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.nav-item.active .nav-link{
+    color: var(--secondary-color) !important;
+}
+.nav-item:hover .nav-link{
+    color: var(--secondary-color) !important;
+}
+
 /* Top Header */
 @media only screen and (max-width: 991px){
     .w3l-top-header {
