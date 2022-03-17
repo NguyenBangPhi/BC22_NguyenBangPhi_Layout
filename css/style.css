@@ -558,7 +558,7 @@ ul.rating-list li a {
     padding: 20px 40px;
     border-radius: 10px;
     position: relative;
-    bottom: 50px;
+    bottom: -1100px;
 }
 .Subscribe h4{
     font-size: 35px;
@@ -601,7 +601,7 @@ ul.rating-list li a {
 .w3l-about-2{
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 .w3l-about-2 h3{
     font-size: 35px;
@@ -628,4 +628,49 @@ ul.rating-list li a {
 }
 .w3l-about-2 .btn5:hover{
     background-color: #0d369f;
+}
+/* -- stats --> */
+
+.w3_stats  p{
+    margin-top: 40px;
+}
+.w3-stats .counter{
+    border-right: 1px solid var(--border-color-light);
+}
+.w3-stats span{
+    font-size: 46px;
+    font-weight: 600;
+    color: var(--heading-color);
+}
+.w3-stats p{
+    text-transform: uppercase;
+    color: var(--heading-color);
+}
+
+.testimonial__testimonial p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--font-color);
+    letter-spacing: .4px;
+    display: inline;
+    
+    margin-left: 20px
+}
+.d-grid img{
+    border-radius: 50%;
+}
+.d-grid {
+    display: grid;
+    grid-template-columns: .3fr 1fr;
+    align-items: center;
+    grid-gap: 5px;
+    margin-top: 1.5em;
+}
+.testimonials_grid{
+    background: var(--bg-color);
+    border-radius: 4px;
+    box-shadow: 0 20px 62px var(--box-shadow-color);
+    padding: 2rem;
 }
